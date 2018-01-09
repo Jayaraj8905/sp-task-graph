@@ -1,0 +1,65 @@
+.outlook {
+  flex-direction: column;
+  display: flex;
+}
+
+.outlook h5{
+  color: #0c5173;
+  margin: 10px 0px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.outlook .list{
+  flex-direction: row;
+  display: flex;
+  align-items: start;
+  padding: 10px 0px;
+  border-bottom: 1px solid #dedede;
+}
+
+.outlook .list i {
+  color: #80d0f7;
+  margin-top: 4px;
+}
+
+.outlook .list .day{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-right: 16px;
+}
+
+.outlook .list .day p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.outlook .list .day i {
+  font-size: 28px;
+}
+
+.outlook .list .info {
+  flex: 1;
+}
+
+.outlook .list .info p{
+  color: #565353;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.outlook .list .info > div{
+  flex-direction: row;
+  display: flex;
+}
+
+.outlook .list .info > div p{
+  width: 50%;
+}
+
+.outlook .list .info > div i{
+  margin-right: 8px;
+}
