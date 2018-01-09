@@ -1,7 +1,10 @@
 import './style.css';
+import './css/header.css';
 
 import React, { Component } from 'react';
 import { render } from 'react-dom';
+
+import Header from './components/header';
 
 class App extends Component {
   constructor() {
@@ -11,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        Basic App
+        <Header />
       </div>
     );
   }
