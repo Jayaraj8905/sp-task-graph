@@ -1,10 +1,12 @@
 import './style.css';
 import './css/header.css';
+import './css/status.css';
 
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 
 import Header from './components/header';
+import Status from './components/status';
 
 class App extends Component {
   constructor() {
@@ -15,6 +17,7 @@ class App extends Component {
     return (
       <div>
         <Header />
+        <Status />
       </div>
     );
   }

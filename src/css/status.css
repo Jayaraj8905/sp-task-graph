@@ -1,0 +1,93 @@
+.status {
+  background-color: #2248A1;
+  color: #FFFFFF;
+}
+
+.status .temperature {
+  padding: 40px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center
+}
+
+.status .temperature .cloud-font i{
+  font-size: 40px;
+  margin-right: 12px;
+}
+
+.status .temperature p {
+  font-size: 12px;
+}
+
+.status .temperature .info {
+  display: flex;
+  flex-direction: column;
+}
+
+.status .temperature .info > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.status .other-status {
+  flex-direction: row;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+
+.status .other-status > div {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  flex: 1;
+  padding: 0px 10px;
+  border-width: 1px;
+    border-style: solid;
+    -webkit-border-image: 
+      -webkit-gradient(linear, 0 100%, 0 0, from(white), to(rgba(0, 0, 0, 0))) 1 100%;
+    -webkit-border-image: 
+      -webkit-linear-gradient(bottom, white, rgba(0, 0, 0, 0)) 1 100%;
+    -moz-border-image:
+      -moz-linear-gradient(bottom, white, rgba(0, 0, 0, 0)) 1 100%;  
+    -o-border-image:
+      -o-linear-gradient(bottom, white, rgba(0, 0, 0, 0)) 1 100%;
+    border-image:
+      linear-gradient(to top, white, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+.status .other-status > div:first-child {
+  border-left: 0px;
+}
+
+.status .other-status > div:last-child {
+  border-right: 0px;
+}
+
+.status .other-status > div p{
+  font-size: 10px;
+}
+
+.status .other-status > div p.value{
+  font-size: 24px;
+}
+
+.status .other-status .add {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.status .other-status .add i{
+  font-size: 30px;
+}
+
+.status .temperature .info i {
+  font-size: 14px;
+  margin-right: 4px;
+}
