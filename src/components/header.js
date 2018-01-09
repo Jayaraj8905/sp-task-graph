@@ -10,7 +10,7 @@ export default class header extends Component {
           </div>
           <div>
             <h5>myENV</h5>
-            <h5>Current Location<i class="fa fa-angle-down" aria-hidden="true"></i></h5>
+            <h5>Current Location<i className="fa fa-angle-down" aria-hidden="true"></i></h5>
           </div>
         </div>
         <div className="right-section">
