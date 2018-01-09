@@ -10,8 +10,11 @@ $ cd sp-task-graph
 # Install the project's dependencies
 $ npm install
 
-# Watches your files and uses livereload by default
+# Start the Server
 $ npm start
 
-# See the demo
-$ https://sp-task-graph.stackblitz.io
+Application will open in the below url
+http://localhost:3000/
+
+# To See the online demo
+https://sp-task-graph.stackblitz.io
