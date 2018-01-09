@@ -3,7 +3,7 @@
 
 $ Install the latest node
 
-$ git clone https://github.com/Jayaraj8905/sp-task-graph.git
+$ git clone https://github.com/Jayaraj8905/sp-task-graph.git or do download
 
 $ cd sp-task-graph
 
