@@ -69,11 +69,18 @@
 }
 
 .status .other-status > div p{
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .status .other-status > div p.value{
   font-size: 24px;
+  margin: 6px 0px;
+  padding: 8px;
+}
+
+.status .other-status > div:first-child p.value {
+  background-color: #314a86;
+  border-radius: 4px;
 }
 
 .status .other-status .add {
