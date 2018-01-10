@@ -25,10 +25,10 @@ export default class Status extends Component {
           <div>
             <p>RAIN</p>
             <p className="value">0</p>
-            <p>MM</p>
+            <p>mm</p>
           </div>
           <div>
-            <p>Dengue</p>
+            <p>DENGUE</p>
             <p className="value">Nil</p>
           </div>
           <div className="add">
